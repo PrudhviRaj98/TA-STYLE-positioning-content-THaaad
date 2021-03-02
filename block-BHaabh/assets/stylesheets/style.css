@@ -1,0 +1,222 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* .................................................... */
+.body {
+    box-sizing: border-box;
+}
+.clearfix::before,.clearfix::after {
+    content: "";
+    display: table;
+}
+.clearfix::after {
+    clear: both;
+}
+.margin-header {
+    width: 75%;
+    margin: 0 auto;
+}
+.left-float {
+    float: left;
+}
+.right-float {
+    float: right;
+}
+.heading{
+    text-align: center;
+    padding-top: 100px;
+    font-size: 36px;
+    color: white;
+}
+.heading h2 {
+    margin-top: 10px;
+    font-size: 10px;
+}
+.nav2 {
+    margin-left: 30px;
+    text-decoration: none;
+    color: white;
+}
+.nav-links {
+    text-decoration: none;
+    color: white;
+}
+.background-header {
+    background-color: rgb(83,133,193);
+    height: 200px;
+    padding: 50px;
+}
+/* ........................................... */
+.button {
+    background-color:navy;
+    width: 60px;
+    height: 30px;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+}
+.link {
+    color: white;
+    text-decoration:none ;
+    vertical-align: middle; 
+}
+h3 {
+    color:navy ;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.paragraph{
+    padding-bottom: 20px;
+}
+.over {
+    margin-left: 100px;
+    border: 2px solid white; 
+}
+.article-1 {
+    float: left;
+    width: 160px;
+    margin:60px;
+}
+/* ............................................. */
+.heading-article-2 {
+    text-align: center;
+    padding: 30px;
+}
+.article-2 {
+    background-color: rgb(83,133,193);
+}
+.heading-article-2 h4 {
+    font-size: 35px;
+    color: white;
+}
+.heading-article-2 h5 {
+    margin-top: 10px;
+    color: white;
+}
+.border-article-2 {
+    border: 2px solid white;
+    margin-left: 25px;
+    margin-top: 20px;
+    margin-bottom: 50px;   
+}
+.image-left {
+    float: left;
+    height: 300px;
+    margin-left: 5%;
+}
+.image-left img {
+    width: 100px;
+    height: 133.09px;
+    border-radius: 50%;
+    margin: 50px;
+}
+.image-left h2 {
+    font-size: 24px;
+    text-align: center;
+    color: white;
+}
+.font1 {
+    text-align: center;
+    margin-top: 4px;
+    color: white;
+}
+/* .................................................... */
+.position {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.position h5 {
+    text-align: center;
+    line-height: 1.5;
+    font-size: 50px ;
+    color: skyblue;
+}
+.position h6 {
+    text-align: center;
+}
+.last-left {
+    float: left;
+    width: 50%;
+    margin-top: 40px;
+}
+.last-left img {
+    width: 380px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+.last-left h2 {
+    color: skyblue;
+    margin-left: 40px;
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+.last-left p {
+    margin-left: 40px;
+    margin-bottom: 25px;
+}
+.btn1 {
+    color: white;
+    text-decoration: none;
+}
+/* .................................. */
+/* footer */
+.small {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+    margin-left: 40px;
+}
+.nav-footer{
+    float: right;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
